@@ -1,10 +1,19 @@
 # Arxiv Research Scout
 
+For a detailed video explanation of this project's working, refer to this [YouTube video](https://www.youtube.com/watch?v=dQw4w9WgXcQ). (This is a placeholder URL, please replace it with the actual video link.)
+
 This project provides a research scout agent that interacts with an Arxiv Multi-Agent Collaboration Protocol (MCP) server to search for and summarize research papers.
 
 ## Setup Instructions
 
-1.  **Create a Virtual Environment**
+1.  **Clone the repository and navigate into it**
+
+    ```bash
+    git clone https://github.com/YogeshChebrolu/KAIROS_ARXIV_MCP_AGNET.git
+    cd KAIROS_ARXIV_MCP_AGNET
+    ```
+
+2.  **Create a Virtual Environment**
 
     It is recommended to use a Python virtual environment to manage dependencies.
 
@@ -12,7 +21,7 @@ This project provides a research scout agent that interacts with an Arxiv Multi-
     python -m venv .venv
     ```
 
-2.  **Activate the Virtual Environment**
+3.  **Activate the Virtual Environment**
 
     -   **Windows:**
 
@@ -26,7 +35,7 @@ This project provides a research scout agent that interacts with an Arxiv Multi-
         source .venv/bin/activate
         ```
 
-3.  **Install Dependencies**
+4.  **Install Dependencies**
 
     Install the required Python packages:
 

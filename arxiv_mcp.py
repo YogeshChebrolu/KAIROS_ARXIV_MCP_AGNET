@@ -89,10 +89,3 @@ def pdf_summarize(pdf_url):
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
-    # query = "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity"
-    # result = search_papers(query, 3) 
-    # print(result)
-    # for i, p in enumerate(result, start=1):
-    #     print(f"[{i}] {p['title']} — {(p['authors'])} ({p['published']})")
-    #     print(f"    PDF: {p['pdf_url']}")
-    #     print(f"    Abstract: {p['summary'][:200]}…\n")

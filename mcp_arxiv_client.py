@@ -48,7 +48,7 @@ class State(TypedDict):
 # Chat function that invokes the LLM with tools
 async def chat(state: State):
     recent_messages = state["messages"]
-    print(recent_messages)
+    # print(recent_messages)
     all_messages = [SystemMessage(content=AGENT_SYSTEM_PROMPT)] + recent_messages
     llm_with_tools = llm.bind_tools(tools)
     response = await llm_with_tools.ainvoke(all_messages)
@@ -92,7 +92,8 @@ async def run_chat_loop():
         async for event in graph_memory_update.astream({"messages": [HumanMessage(content=user_input)]}, config):
             for value in event.values():
                 print("Assistant: -------------------------------\n", value["messages"][-1].content)
-                 
+        
+
 
 if __name__ == "__main__":
     
