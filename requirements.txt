@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+langchain-mcp-adapters
+langgraph
+python-dotenv
+fastapi
+pydantic
+requests
+feedparser
+pymupdf
+uvicorn
