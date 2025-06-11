@@ -88,6 +88,8 @@ Configuration parameters, such as the LLM provider and model for summarization, 
 
 Create a file named `.env` in the root directory of the project with the following content. You can change `MODEL_PROVIDER_FOR_SUMMARY` and `MODEL_NAME_FOR_SUMMARY` to your desired LLM.
 
+Refer .env.example for model configuration
+
 ```
 MODEL_PROVIDER_FOR_SUMMARY=groq
 MODEL_NAME_FOR_SUMMARY=llama3-8b-8192
