@@ -1,6 +1,6 @@
 # Arxiv Research Scout
 
-For a detailed video explanation of this project's working, refer to this [YouTube video](https://www.youtube.com/watch?v=dQw4w9WgXcQ). (This is a placeholder URL, please replace it with the actual video link.)
+For a detailed video explanation of this project's working, refer to this [YouTube video](https://www.youtube.com/watch?v=kxaGWsZrItA).
 
 This project provides a research scout agent that interacts with an Arxiv Multi-Agent Collaboration Protocol (MCP) server to search for and summarize research papers.
 
